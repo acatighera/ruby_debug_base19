@@ -18,4 +18,5 @@ Gem::Specification.new do |s|
   s.description       = "Do not use"
   s.add_dependency "ruby-core-source19"
   s.add_dependency "linecache19"
+  s.extensions << "ext/ruby_debug/extconf.rb"
 end
