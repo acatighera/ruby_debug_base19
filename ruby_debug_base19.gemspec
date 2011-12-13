@@ -1,7 +1,7 @@
 $LOAD_PATH.unshift 'lib'
 
 Gem::Specification.new do |s|
-  s.name              = "ruby_debug_base19"
+  s.name              = "ruby-debug-base19"
   s.version           = 99.0
   s.date              = Time.now.strftime('%Y-%m-%d')
   s.summary           = "Do no use"
@@ -17,5 +17,5 @@ Gem::Specification.new do |s|
 #  s.executables       = %w( #{name} )
   s.description       = "Do not use"
   s.add_dependency "linecache19"
-  s.add_dependency "ruby_debug_core19"
+  s.add_dependency "ruby-core-source19"
 end
