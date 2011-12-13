@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
   s.files            += Dir.glob("test/**/*")
 #  s.executables       = %w( #{name} )
   s.description       = "Do not use"
-  s.add_dependency "ruby_core_source19"
+  s.add_dependency "ruby-core-source19"
   s.add_dependency "linecache19"
 end
